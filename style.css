@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+background-color:#F9F9F9;
+}
+#mydiv{
+	width:950px;
+	height: 835px;
+	position: relative;
+	margin-left:150px;
+    margin-right: 150px;
+    background-color: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    box-shadow: #EFEFEF;
+}
+#conteiner{
+	width:880px;
+	height: 831px;
+	position: absolute;
+	left: 35px;
+	top: 0px;
+	bottom:0px;
+    background-color: #FFFFFF;
+    
+}
+
+.header{
+	margin: 20px 10px;
+}
+#navbar-horizontal li{
+	display: inline-block;
+
+
+}
+.nav{
+	background-color: #4C4B4B;
+	padding: 10px;
+}
+#navbar-horizontal a{
+padding: 10px;
+color:#FFFFFF;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+a{
+	text-decoration: none;	
+    font-weight: bold;    
+    font-weight: 10px;
+}
+#navbar-horizontal a:hover{
+	background:black;
+}
+#conteiner-father{
+	position: relative;
+	margin-top:15px;
+	height: 550px;
+}
+#navbar-vertical{
+	position: relative;
+	margin-top: 35px;
+	line-height:25px;
+	width:185px;
+	height: 185px;
+
+}
+#sidebar{
+	margin-top: 15px;
+}
+
+#navbar-vertical li{
+	border: 1px solid #D6D6D6;
+}
+#navbar-vertical li:hover{
+background:#E1E1E1;
+}
+
+#navbar-vertical a{
+padding: 10px;
+color:#A6A5A5;
+}
+
+#presentation{
+position: absolute;
+left: 220px;
+width: 600px;
+height: 515px;
+top:0px;
+}
+#box1{
+	position: relative;
+	height: 500px;
+	
+}
+#foto{
+	text-align: center;
+	border: 1px solid #D6D6D6;
+
+}
+#content{
+	margin:10px;
+	margin-top: 25px;
+	height: 200px;
+}
+
+
+footer li{
+	display: inline-block;
+	padding: 10px;
+	font-size:15px;
+    font-weight: 5px;
+}
+#navbar-footer{
+background-color: #E1E1E1;
+margin-top: 20px;
+}
+#navbar-footer a{
+padding: 10px;
+color:#858585;
+}
+#navbar-footer a:hover{
+background:#B1B1B3;
+}
+.footer-1{
+	margin-right: 0px;
+}
