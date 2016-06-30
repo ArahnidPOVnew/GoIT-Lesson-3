@@ -7,27 +7,29 @@ background-color:#F9F9F9;
 }
 #mydiv{
 	width:950px;
-	height: 835px;
+	height: 830px;
 	position: relative;
 	margin-left:150px;
     margin-right: 150px;
     background-color: #FFFFFF;
     border: 1px solid #D6D6D6;
-    box-shadow: #EFEFEF;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
 }
 #conteiner{
 	width:880px;
-	height: 831px;
+	height: 825px;
 	position: absolute;
 	left: 35px;
 	top: 0px;
 	bottom:0px;
     background-color: #FFFFFF;
-    
+
+
 }
 
 .header{
-	margin: 20px 10px;
+	margin: 23px 10px;
+	font-style: color:#2E2E2E;
 }
 #navbar-horizontal li{
 	display: inline-block;
@@ -35,34 +37,38 @@ background-color:#F9F9F9;
 
 }
 .nav{
-	background-color: #4C4B4B;
+	background-color: #4E4E4E;
 	padding: 10px;
 }
 #navbar-horizontal a{
-padding: 10px;
 color:#FFFFFF;
+padding: 10px;
+
 }
 li {
     list-style-type: none; /* Убираем маркеры */
    }
 a{
-	text-decoration: none;	
-    font-weight: bold;    
+	text-decoration: none;
+    font-weight: bold;
     font-weight: 10px;
 }
 #navbar-horizontal a:hover{
-	background:black;
+	background:#393939;
+	border: 1px;
+	color: #828282;
 }
 #conteiner-father{
 	position: relative;
 	margin-top:15px;
 	height: 550px;
+
 }
 #navbar-vertical{
 	position: relative;
 	margin-top: 35px;
 	line-height:25px;
-	width:185px;
+	width:158px;
 	height: 185px;
 
 }
@@ -75,16 +81,18 @@ a{
 }
 #navbar-vertical li:hover{
 background:#E1E1E1;
+text-indent: 6%;
 }
 
 #navbar-vertical a{
 padding: 10px;
 color:#A6A5A5;
+
 }
 
 #presentation{
 position: absolute;
-left: 220px;
+left: 280px;
 width: 600px;
 height: 515px;
 top:0px;
@@ -125,4 +133,10 @@ background:#B1B1B3;
 }
 .footer-1{
 	margin-right: 0px;
+}
+#foo1{
+	float: left;
+}
+#foo2{
+	float: right;
 }
