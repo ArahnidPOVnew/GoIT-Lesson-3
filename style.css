@@ -23,8 +23,6 @@ background-color:#F9F9F9;
 	top: 0px;
 	bottom:0px;
     background-color: #FFFFFF;
-
-
 }
 
 .header{
@@ -33,21 +31,22 @@ background-color:#F9F9F9;
 }
 #navbar-horizontal li{
 	display: inline-block;
-		
+
 }
 .nav{
 	background: linear-gradient(to top, #393939, grey);
 	padding: 13px;
-	
-	
+
+}
+.nav ul li{
+	box-sizing: border-box;
 }
 
 #navbar-horizontal a{
 color:#FFFFFF;
 padding: 20px;
 padding-bottom:11px;
-padding-top:11px;
-
+padding-top:13px;
 
 }
 li {
@@ -59,12 +58,13 @@ a{
     font-weight: 10px;
 }
 #navbar-horizontal a:hover{
-	background: linear-gradient(to top, #393939, grey);
+	background-color: white;
+    background-image: linear-gradient(to top, #2e2e2e 0%, #4a4a4a 100%);
+    box-sizing: border-box;
 	border-left: 1px solid gray;
 	border-right: 1px solid gray;
-	color: white;
-	
-}
+
+	}
 #conteiner-father{
 	position: relative;
 	margin-top:15px;
@@ -76,7 +76,7 @@ a{
 	position: relative;
 	margin-top: 35px;
 	line-height:40px;
-	width:168px;
+	width:198px;
 	height: 185px;
 
 }
@@ -86,10 +86,14 @@ a{
 
 #navbar-vertical li{
 	border: 1px solid #D6D6D6;
+border-bottom: none;
+}
+.border{
+border-bottom: 1px solid #D6D6D6;
 }
 #navbar-vertical li:hover{
 background:#E1E1E1;
-text-indent: 6%;
+text-indent: 10%;
 }
 
 #navbar-vertical a{
@@ -142,7 +146,8 @@ padding: 10px;
 color:#858585;
 }
 #navbar-footer a:hover{
-background:#B1B1B3;
+text-decoration: underline;
+color:#595959;
 }
 .footer-1{
 	margin-right: 0px;
